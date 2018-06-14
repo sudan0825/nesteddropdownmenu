@@ -1,0 +1,3 @@
+Backgroud story: Bootstrap discontinue nested dropdown navigation function since v3. A rumor reason is that "This feature was purposefully removed by @mdo as he feels that submenus aren't great UX, particularly on mobile." I believe it is not a good idea to sacrifice web application functions to accommodate mobile functions. Only one line code will make sure both  web and mobile application are fully support instead of deprecated nested dropdown function.
+
+Add nested dropdown menu to Bootstrap navigation bar. Technologies involved include BootStrap,HTML,CSS,JavaScript, jQuery

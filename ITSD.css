@@ -1,0 +1,35 @@
+.dropdown-item>span{
+    float: right
+}
+@media only screen and (max-width:800px){
+   .dropdown-item>span{
+    display: none
+} 
+}
+
+#actionSub, #otherSub{
+   display: none;
+    position: absolute;
+  
+    min-width: 100px;
+    height: auto;
+    
+    
+    border: 1px solid rgba(0,0,0, .15);
+    background-color: #fff;
+    border-radius: .25rem;
+    z-index: 2000;  
+}
+
+
+
+#actionSub>ul, #otherSub>ul{
+    color: #292b2c;
+    text-align: left;
+    padding: 0 .5rem;
+}
+#actionSub>ul>li, #otherSub>ul>li{
+   display: block;
+    
+ 
+}
